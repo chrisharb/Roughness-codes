@@ -208,7 +208,5 @@ xlabel('Normal stress [MPa]')
 ylabel('Number of asperities')
 xlim([5 sn/1e6])
 %This is a joke...
-prompt= 'are you a republican?'
-x = 
 disp(['Quick Donald is coming, best stop doing science and make some alternative facts, by the way this run took ' num2str(toc) ' seconds'])
 end
