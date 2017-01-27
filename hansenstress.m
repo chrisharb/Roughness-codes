@@ -1,4 +1,4 @@
-function sol = hansenstress(data,dx,SN);
+function sol = hansenstress(data,dx,SN,SN1,SN2);
 %% Hansen stress script
 %This code solves the elastic contact problem in 2d using the fast fourier
 %transform algorith suggested by Stanley & Kato, and implemented by Hansen
@@ -15,6 +15,8 @@ function sol = hansenstress(data,dx,SN);
 %       dx = the sample spacing of the topography data
 %       SN = the normal stress that the code should run to in Pa, do not 
 %       use MPa otherwise the run will be rather short
+%       SN1 = first normal stress for box counting, in Pa
+%       SN2 = second normal stress for box counting, in Pa
 %Outputs:
 %       r = the maximum distance between asperities which is equivalent to 
 %       lambda c in Harbord et al. (2017)
