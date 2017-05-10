@@ -9,8 +9,7 @@
 % Inputs: 
 %       data = surface topography z in m's.
 %       dx = sample spacing of data.
-%       loops = no of loops that the simulator should perform, please note
-%       this shuld be greater than 2 as there is a differencing loop.
+%       sn = required level of normal stress to run to
 %
 % Ouputs:
 %       avaspp = average of asperity lengths at corresponding stress
