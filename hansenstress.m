@@ -56,7 +56,7 @@ Z = Z-Zmin;
 % figure(2)
 % surf(Z)
 % shading flat
-g = 50e9;
+g = 50e9; %Youngs modulus of substrate
 cut=3; %Number of points to take from top
 l = size(Z); %Get the size of input data
 %Reshape the data to get a 1d list for asperity picking
